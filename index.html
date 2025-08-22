@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWARNAM Lifts - Elevating Your World</title>
+  <link rel="shortcut icon" href="images/swarnam-logo.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e768f44d60.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Video wrapper with play icon */
+    .video-wrapper {
+      position: relative;
+      cursor: pointer;
+    }
+    .video-wrapper img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(210, 32, 47, 0.9);
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 30px;
+      transition: background 0.3s;
+    }
+    .play-btn:hover {
+      background: rgba(210, 32, 47, 1);
+    }
+    .video-wrapper video {
+      display: none;
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="text-white" id="header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex flex-column align-items-start" href="#">
+        <span class="fw-bold display-6 text-uppercase" style="color:#D2202F;">SWARNAM</span>
+        <small class="logo-sub">Elevator & CO.</small>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-flex me-auto"></div>
+        <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Our Lifts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clients">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Our Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="py-lg-3 d-lg-flex slider-img">
+    <div class="container d-lg-flex align-items-center">
+      <div class="slide-wrap">
+        <p class="hero-subtitle text-dark">Innovative, Safe, and Reliable Elevator Solutions</p>
+        <h1 class="fw-bold hero-title text-dark">Premium Elevators for Every Need</h1>
+        <p class="hero-desc text-dark">At SWARNAM, we combine advanced engineering with elegant design to create lifts that redefine vertical travel.</p>
+        <a href="#features" class="btn btn-primary px-4 py-2 border-0" style="background-color: #D2202F;">
+          Explore Lifts <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Features Section -->
+<section id="features" class="py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="fw-bold">Our Premium <span style="color: #D2202F;">Lift Models</span></h1>
+      <p class="mb-5 position-relative small-border-p fw-bold" style="color: #D2202F;">Safe. Stylish. Smooth.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 g-5">
+        <img src="images/lift1.jpeg" alt="Lift Model 1" class="img-fluid uniform-img">
+      </div>
+      <div class="col-lg-4 g-5">
+        <img src="images/lift2.jpeg" alt="Lift Model 2" class="img-fluid uniform-img">
+      </div>
+      <div class="col-lg-4 g-5">
+        <img src="images/lift3.jpeg" alt="Lift Model 3" class="img-fluid uniform-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="fw-bold py-3 position-relative small-border">About <span style="color: #D2202F;">SWARNAM</span></h1>
+    </div>
+    <div class="row my-3 align-items-center">
+      <div class="col-lg-6">
+        <img src="images/about-lift.jpg" class="img-fluid uniform-img" alt="About SWARNAM Lifts">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="text-color fw-bold">Elevating Excellence Since 2022</h2>
+        <p>SWARNAM is a leading manufacturer and installer of premium elevators, serving residential, commercial, and industrial clients. Our mission is to make vertical transportation safer, faster, and more comfortable.</p>
+        <p>We are experienced professionals redefining the elevator industry. With a focus on customized solutions, reliable local service, and strong partnerships, we stand out in the market. Though young, our team brings years of proven expertise in manufacturing, engineering, and sales, committed to supporting and growing with our partners while delivering service beyond products.</p>
+        <p>From compact home lifts to high-speed corporate solutions, we provide cutting-edge designs backed by 24/7 maintenance support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="primary-color py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="fw-bold py-3 position-relative small-border">Our <span style="color: #D2202F;">Products</span></h1>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="card p-3 border-0 shadow-lg single-shop">
+          <img src="images/home-lift.jpeg" alt="Home Lift" class="card-img-top mx-auto uniform-img">
+          <div class="card-body">
+            <h5 class="fw-bold text-color">Home Lift</h5>
+            <p>Compact and stylish lifts designed for modern homes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-3 border-0 shadow-lg single-shop">
+          <img src="images/commercial-lift.jpg" alt="Commercial Lift" class="card-img-top mx-auto uniform-img">
+          <div class="card-body">
+            <h5 class="fw-bold text-color">Commercial Lift</h5>
+            <p>High-capacity lifts for offices, malls, and hotels.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-3 border-0 shadow-lg single-shop">
+          <img src="images/industrial-lift.jpg" alt="Industrial Lift" class="card-img-top mx-auto uniform-img">
+          <div class="card-body">
+            <h5 class="fw-bold text-color">Industrial Lift</h5>
+            <p>Heavy-duty lifts for factories and warehouses.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-3 border-0 shadow-lg single-shop">
+          <img src="images/hospital-lift.jpeg" alt="Hospital Lift" class="card-img-top mx-auto uniform-img">
+          <div class="card-body">
+            <h5 class="fw-bold text-color">Hospital Lift</h5>
+            <p>Specialized elevator designed for the safe and efficient transport of patients, medical equipment, and staff within a healthcare facility.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-3 border-0 shadow-lg single-shop">
+          <img src="images/Capsule-lift.jpeg" alt="Capsule Lift" class="card-img-top mx-auto uniform-img">
+          <div class="card-body">
+            <h5 class="fw-bold text-color">Capsule Lift</h5>
+            <p>Modern, aesthetically designed vertical transportation system, often with a transparent enclosure, that provides a panoramic view.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section id="clients" class="client-section py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="fw-bold py-3 position-relative small-border">Happy <span style="color: #D2202F;">Clients</span></h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col text-center">
+        <div class="card h-100 py-3 single-card">
+          <img src="images/client1.jpg" class="card-img-top img-fluid p-3 mx-auto rounded-circle" style="width: 50%;" alt="">
+          <div class="card-body">
+            <p>"The SWARNAM home lift is stylish, quiet, and reliable. Installation was smooth."</p>
+          </div>
+          <h5 class="fw-bold">Chef Biswajit Maharathi</h5>
+          <span>MasterChef India Season 6</span>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card h-100 py-3 single-card">
+          <img src="images/client2.jpg" class="card-img-top img-fluid p-3 mx-auto rounded-circle" style="width: 50%;" alt="">
+          <div class="card-body">
+            <p>"Our office building upgrade was seamless thanks to SWARNAM's professional team."</p>
+          </div>
+          <h5 class="fw-bold">Dr Bhawani Shankar Patti</h5>
+          <span>SUM ULTIMATE, HOD</span>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card h-100 py-3 single-card">
+          <img src="images/client3.jpg" class="card-img-top img-fluid p-3 mx-auto rounded-circle" style="width: 50%;" alt="">
+          <div class="card-body">
+            <p>"We trust SWARNAM for all our industrial lift requirements. Top-notch service."</p>
+          </div>
+          <h5 class="fw-bold">Prasana Kumar Maharana</h5>
+          <span>LECTURE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h1 class="fw-bold">Our <span style="color: #D2202F;">Gallery</span></h1>
+      <p class="fw-bold small-border-p" style="color: #D2202F;">Some of our completed lift projects</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 gallery-item">
+        <a href="images/work1.jpeg" target="_blank">
+          <img src="images/work1.jpeg" class="img-fluid uniform-img" alt="Lift Work 1">
+        </a>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <a href="images/work2.jpeg" target="_blank">
+          <img src="images/work2.jpeg" class="img-fluid uniform-img" alt="Lift Work 2">
+        </a>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <a href="images/work3.jpeg" target="_blank">
+          <img src="images/work3.jpeg" class="img-fluid uniform-img" alt="Lift Work 3">
+        </a>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <a href="images/work4.jpeg" target="_blank">
+          <img src="images/work4.jpeg" class="img-fluid uniform-img" alt="Lift Work 4">
+        </a>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <a href="images/work5.jpeg" target="_blank">
+          <img src="images/work5.jpeg" class="img-fluid uniform-img" alt="Lift Work 5">
+        </a>
+      </div>
+
+      <!-- Example Video -->
+      <div class="col-md-4 gallery-item">
+      <div class="ratio ratio-16x9">
+        <iframe 
+          src="https://www.youtube.com/embed/GkDDXO9-93U?mute=1" 
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact-us" class="py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h1 class="fw-bold">Contact <span style="color: #D2202F;">Us</span></h1>
+      <p class="fw-bold small-border-p" style="color: #D2202F;">We would love to hear from you</p>
+    </div>
+
+  <!-- Google Form -->
+<form
+  action="https://docs.google.com/forms/d/e/1FAIpQLSez99AG5rubFd3Zyr6-7CVKIxRziy8JSYMP0gORMsjCYgXebw/formResponse"
+  method="POST"
+  target="hidden_iframe"
+  onsubmit="return prepareAndSubmit()"
+  id="contactForm"
+  class="row g-3 fade">
+
+  <!-- Name -->
+  <div class="col-md-6">
+    <label class="form-label">Your Name *</label>
+    <input type="text" name="entry.1097649740" class="form-control" required>
+  </div>
+
+  <!-- Email -->
+  <div class="col-md-6">
+    <label class="form-label">Your Email</label>
+    <input type="email" name="entry.918387463" class="form-control">
+  </div>
+
+  <!-- Phone -->
+  <div class="col-md-6">
+    <label class="form-label">Your Phone *</label>
+    <input type="tel" name="entry.1541722858" class="form-control"
+           pattern="\d{10}" title="Please enter a 10-digit phone number" required>
+  </div>
+
+  <!-- Subject -->
+  <div class="col-md-6">
+    <label class="form-label">Subject</label>
+    <select id="subjectSelect" class="form-select" required>
+      <option value="">Select a Lift Type</option>
+      <option value="Home Lift">Home Lift</option>
+      <option value="Hospital Lift">Hospital Lift</option>
+      <option value="Commercial Lift">Commercial Lift</option>
+      <option value="Hydraulic Lift">Hydraulic Lift</option>
+      <option value="Industrial Lift">Industrial Lift</option>
+      <option value="Capsule Lift">Capsule Lift</option>
+      <option value="Others">Others</option>
+    </select>
+  </div>
+
+  <!-- Others input -->
+  <div class="col-md-6" id="subjectOtherRow" style="display:none;">
+    <label class="form-label">Subject (Other) *</label>
+    <input type="text" id="subjectOtherInput" class="form-control" placeholder="Please specify your subject">
+  </div>
+
+  <!-- Hidden final subject field (Google Form entry ID) -->
+  <input type="hidden" name="entry.470724486" id="subjectFinal">
+
+  <!-- Message -->
+  <div class="col-12">
+    <label class="form-label">Your Message</label>
+    <textarea name="entry.893404314" class="form-control" rows="5"></textarea>
+  </div>
+
+  <!-- Submit -->
+  <div class="col-12 text-center mb-5">
+    <button type="submit" class="btn btn-primary px-5 py-2"
+            style="background-color: #D2202F; border: none;">Submit</button>
+  </div>
+</form>
+
+<!-- Hidden iframe -->
+<iframe name="hidden_iframe" style="display:none;"
+        onload="if(submitted){showThankYou()}"></iframe>
+
+<!-- Thank you message -->
+<div id="thankyouMsg" class="fade" style="display:none; text-align:center; margin-top:20px; color:green; font-weight:bold;">
+  ✅ Thank you for your response! <br>
+  Our team will reach you shortly for more discussion. <br><br>
+  <span style="color:#333;">Form will reappear in <span id="countdown">10</span> seconds...</span>
+</div>
+
+<style>
+  .fade {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+  .fade.show {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let submitted = false;
+
+  // Show/Hide "Other" field dynamically
+  document.getElementById("subjectSelect").addEventListener("change", function () {
+    if (this.value === "Others") {
+      document.getElementById("subjectOtherRow").style.display = "block";
+      document.getElementById("subjectOtherInput").required = true;
+    } else {
+      document.getElementById("subjectOtherRow").style.display = "none";
+      document.getElementById("subjectOtherInput").required = false;
+      document.getElementById("subjectOtherInput").value = '';
+    }
+  });
+
+  // Before submitting, put correct subject into hidden field and validate phone
+  function prepareAndSubmit() {
+    const phone = document.querySelector('input[name="entry.1541722858"]').value.trim();
+    if (!/^\d{10}$/.test(phone)) {
+      alert("Phone number must be exactly 10 digits.");
+      return false;
+    }
+
+    const subjectSelect = document.getElementById("subjectSelect");
+    const subjectOtherInput = document.getElementById("subjectOtherInput");
+    const subjectFinal = document.getElementById("subjectFinal");
+
+    if (subjectSelect.value === "") {
+      alert("Please select a subject.");
+      return false;
+    }
+
+    if (subjectSelect.value === "Others") {
+      const otherVal = (subjectOtherInput.value || "").trim();
+      if (!otherVal) {
+        alert("Please specify your subject.");
+        subjectOtherInput.focus();
+        return false;
+      }
+      subjectFinal.value = otherVal;
+    } else {
+      subjectFinal.value = subjectSelect.value;
+    }
+
+    submitted = true;
+    return true; // allow submission
+  }
+
+  // After successful submission → hide form & show thank you
+  function showThankYou() {
+    const form = document.getElementById("contactForm");
+    const thankyouMsg = document.getElementById("thankyouMsg");
+    const countdownEl = document.getElementById("countdown");
+
+    // Fade out form
+    form.classList.remove("show");
+    setTimeout(() => {
+      form.style.display = "none";
+
+      // Fade in thank you
+      thankyouMsg.style.display = "block";
+      setTimeout(() => thankyouMsg.classList.add("show"), 10);
+    }, 600);
+
+    // Countdown from 10s
+    let seconds = 10;
+    countdownEl.textContent = seconds;
+    const timer = setInterval(() => {
+      seconds--;
+      countdownEl.textContent = seconds;
+      if (seconds <= 0) {
+        clearInterval(timer);
+
+        // Fade out thank you
+        thankyouMsg.classList.remove("show");
+        setTimeout(() => {
+          thankyouMsg.style.display = "none";
+
+          // Reset and restore form design
+          form.reset();
+          document.getElementById("subjectOtherRow").style.display = "none"; // hide "Other" row
+          form.className = "row g-3 fade"; // restore original classes
+          form.style.display = ""; // let CSS/Bootstrap handle layout
+
+          // Fade back in
+          setTimeout(() => form.classList.add("show"), 10);
+        }, 600);
+      }
+    }, 1000);
+  }
+
+  // Make form visible on load
+  window.onload = () => {
+    document.getElementById("contactForm").classList.add("show");
+  };
+</script>
+
+<!-- Footer -->
+<footer class="py-5 mt-5" style="background-color: #0B0D17; width:100%;">
+  <div class="container text-white">
+    <div class="d-lg-flex justify-content-between align-items-center">
+      <div>
+        <p>&copy; 2025 SWARNAM Lifts. All rights reserved.</p>
+        <p>Email: swarnamelevators@gmail.com | Phone: +91-6370824759</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <a href="https://www.facebook.com/profile.php?id=61579199259286" target="_blank"><i class="fab fa-facebook fs-3 me-3"></i></a>
+        <a href="https://www.instagram.com/swarnamelevators?igsh=MWpxZ29lcGRka2thbg==" target="_blank"><i class="fab fa-instagram fs-3 me-3"></i></a>
+        <a href="https://youtube.com/@swarnamelevators?si=xv08OLXPXNvTBNgR" target="_blank"><i class="fab fa-youtube fs-3"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+
+  // Show/hide Others field on change
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('subjectSelect');
+    const otherRow = document.getElementById('subjectOtherRow');
+    const otherInput = document.getElementById('subjectOtherInput');
+
+    select.addEventListener('change', function () {
+      if (this.value === 'Others') {
+        otherRow.style.display = 'block';
+        otherInput.setAttribute('required', 'required');
+      } else {
+        otherRow.style.display = 'none';
+        otherInput.removeAttribute('required');
+        otherInput.value = '';
+      }
+    });
+  });
+
+  
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
